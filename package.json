@@ -37,7 +37,8 @@
   },
   "type": "module",
   "engines": {
-    "pnpm": ">=7.9.5"
+    "pnpm": ">=7.9.5",
+    "node": "16.x"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -48,8 +49,5 @@
     "patchedDependencies": {
       "jasmine-jquery@2.1.1": "scripts/patches/jasmine-jquery@2.1.1.patch"
     }
-  },
-  "engines": {
-    "node": "16.x"
   }
 }
