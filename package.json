@@ -48,5 +48,8 @@
     "patchedDependencies": {
       "jasmine-jquery@2.1.1": "scripts/patches/jasmine-jquery@2.1.1.patch"
     }
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
